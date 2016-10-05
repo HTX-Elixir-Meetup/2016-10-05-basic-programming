@@ -1,15 +1,9 @@
 # Elixir types
 
-Elixir has some basic types:
+Elixir has several basic types:
 
-|type|examples|
-|------|------|
-| Numeric (integer)| `1` |
-| Numeric (float)| `1.0`, `6.022e23` |
-| Booleans | `true`, `false`|
-| Atoms | `:atom`, `AlsoAnAtom` |
-| Strings | `"elixir"` |
-| Charlists | `'erlang'` |
-| Lists | `[ 1, 2, 3]` |
-| Attribute Lists | `[ from: 'me', to: 'you' ]` |
-| Tuple | '{1, two, 3}'|
+* Numbers (integers, floats)
+* Atoms (atoms, booleans)
+* Strings (charlist, string, binary, regexes)
+* Functions
+* Collections (lists, a-lists, tuples, maps)
